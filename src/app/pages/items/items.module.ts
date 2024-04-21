@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ItemsComponent } from './items/items.component';
+import { ItemsRoutingModule } from './items-routing.module';
 
 
 
@@ -9,7 +10,8 @@ import { ItemsComponent } from './items/items.component';
     ItemsComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    ItemsRoutingModule
   ]
 })
 export class ItemsModule { }
