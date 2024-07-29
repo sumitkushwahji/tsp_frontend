@@ -1,0 +1,41 @@
+.card-img-top_857{
+    height: 450px;
+    width:100%;
+}
+
+.card-img-top_856{
+    height: 450px;
+    width:100%;
+}
+
+.container {
+    position: relative;
+    width: 100%;  /* or any specific width */
+    height: 100%; /* or any specific height */
+    /* Other styles */
+}
+
+.left-corner {
+    text-align: left;
+    margin-right: 100px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.footer-content {
+    max-width: 300px;
+    margin: 0;
+  }
+  
+  .footer h3,
+  .footer p {
+    margin: 0;
+  }
+  
+  .footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
